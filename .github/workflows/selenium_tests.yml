@@ -48,8 +48,11 @@ jobs:
       # - name: Run Shoeburyness School tests
       #   run: pytest test_ShoeburynessAnswers.py --tb=short --junitxml=results.xml
 
-      - name: Run Southend Girls School tests
-        run: pytest test_SouthendGirls.py --tb=short --junitxml=results.xml
+      # - name: Run Southend Girls School tests
+      #   run: pytest test_SouthendGirls.py --tb=short --junitxml=results.xml
+
+      - name: Run ST Bernards School tests
+        run: pytest test_STBernards.py--tb=short --junitxml=results.xml
             
       # Upload screenshots
       - name: Upload screenshots
