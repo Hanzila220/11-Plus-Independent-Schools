@@ -57,8 +57,11 @@ jobs:
       # - name: Run ST Thomas School tests
       #   run: pytest test_STThomas.py  --tb=short --junitxml=results.xml
 
-      - name: Run Westcliff School tests
-        run: pytest test_WestcliffBoysAnswers.py  --tb=short --junitxml=results.xml
+      # - name: Run Westcliff School tests
+      #   run: pytest test_WestcliffBoysAnswers.py  --tb=short --junitxml=results.xml
+
+      - name: Run Westcliff Girls School tests
+        run: pytest test_WestcliffGirls.py  --tb=short --junitxml=results.xml
             
       # Upload screenshots
       - name: Upload screenshots
