@@ -84,16 +84,16 @@ class TestWordpressLogin:
         
         # Expected URLs for each answer paper
         expected_answer_urls = [
-            "https://smoothmaths.co.uk/csse-board/csse-sample-answer-paper-1",
-            "https://smoothmaths.co.uk/csse-board/csse-sample-answer-paper-2",
-            "https://smoothmaths.co.uk/csse-board/csse-sample-answer-paper-3",
+            "https://smoothmaths.co.uk/csse-board/csse-sample-answer-paper-1/",
+            "https://smoothmaths.co.uk/csse-board/csse-sample-answer-paper-2/",
+            "https://smoothmaths.co.uk/csse-board/csse-sample-answer-paper-3/",
             "https://smoothmaths.co.uk/csse-board/csse-sample-answer-paper-4/",
-            "https://smoothmaths.co.uk/csse-sample-answer-paper-5",
-            "https://smoothmaths.co.uk/csse-sample-answer-paper-6",
-            "https://smoothmaths.co.uk/11-plus-year-7-csse-sample-assessment-paper-7-answers",
-            "https://smoothmaths.co.uk/11-plus-year-7-csse-sample-assessment-paper-8-answers",
-            "https://smoothmaths.co.uk/11-plus-year-7-csse-sample-assessment-paper-9-answers",
-            "https://smoothmaths.co.uk/csse-sample-assessment-answer-paper"
+            "https://smoothmaths.co.uk/csse-sample-answer-paper-5/",
+            "https://smoothmaths.co.uk/csse-sample-answer-paper-6/",
+            "https://smoothmaths.co.uk/11-plus-year-7-csse-sample-assessment-paper-7-answers/",
+            "https://smoothmaths.co.uk/11-plus-year-7-csse-sample-assessment-paper-8-answers/",
+            "https://smoothmaths.co.uk/11-plus-year-7-csse-sample-assessment-paper-9-answers/",
+            "https://smoothmaths.co.uk/csse-sample-assessment-answer-paper/"
         ]
         
 
