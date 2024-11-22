@@ -33,8 +33,11 @@ jobs:
       # - name: Run King Edward School tests
       #   run: pytest test_KingEdwardAnswers.py --tb=short --junitxml=results.xml
 
-      - name: Run Bishop Vesseys School tests
-        run: pytest test_BishopVesseyAnswers.py --tb=short --junitxml=results.xml
+      # - name: Run Bishop Vesseys School tests
+      #   run: pytest test_BishopVesseyAnswers.py --tb=short --junitxml=results.xml
+
+      - name: Run Borden Grammar School tests
+        run: pytest test_BordenGrammar.py --tb=short --junitxml=results.xml
             
       # Upload screenshots
       - name: Upload screenshots
