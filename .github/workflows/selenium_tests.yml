@@ -24,44 +24,50 @@ jobs:
           python -m pip install --upgrade pip
           pip install selenium pytest webdriver-manager pandas
 
-      # - name: Run Aylesbury School tests
-      #   run: pytest test_AylesburyAnswers.py --tb=short --junitxml=results.xml
+      - name: Run Aylesbury School tests
+        run: pytest test_AylesburyAnswers.py --tb=short --junitxml=results.xml
 
-      # - name: Run Barton Court School tests
-      #   run: pytest test_BartonCourtAnswers.py --tb=short --junitxml=results.xml
+      - name: Run Barton Court School tests
+        run: pytest test_BartonCourtAnswers.py --tb=short --junitxml=results.xml
 
-      # - name: Run King Edward School tests
-      #   run: pytest test_KingEdwardAnswers.py --tb=short --junitxml=results.xml
+      - name: Run King Edward School tests
+        run: pytest test_KingEdwardAnswers.py --tb=short --junitxml=results.xml
 
-      # - name: Run Bishop Vesseys School tests
-      #   run: pytest test_BishopVesseyAnswers.py --tb=short --junitxml=results.xml
+      - name: Run Bishop Vesseys School tests
+        run: pytest test_BishopVesseyAnswers.py --tb=short --junitxml=results.xml
 
-      # - name: Run Borden Grammar School tests
-      #   run: pytest test_BordenGrammar.py --tb=short --junitxml=results.xml
+      - name: Run Borden Grammar School tests
+        run: pytest test_BordenGrammar.py --tb=short --junitxml=results.xml
 
-      # - name: Run Colchester County School tests
-      #   run: pytest test_ColschesterCountyAnswers.py --tb=short --junitxml=results.xml
+      - name: Run Colchester County School tests
+        run: pytest test_ColschesterCountyAnswers.py --tb=short --junitxml=results.xml
 
-      # - name: Run Southend School tests
-      #   run: pytest test_SouthendSchoolAnswers.py --tb=short --junitxml=results.xml
+      - name: Run Southend School tests
+        run: pytest test_SouthendSchoolAnswers.py --tb=short --junitxml=results.xml
 
-      # - name: Run Shoeburyness School tests
-      #   run: pytest test_ShoeburynessAnswers.py --tb=short --junitxml=results.xml
+      - name: Run Shoeburyness School tests
+        run: pytest test_ShoeburynessAnswers.py --tb=short --junitxml=results.xml
 
-      # - name: Run Southend Girls School tests
-      #   run: pytest test_SouthendGirls.py --tb=short --junitxml=results.xml
+      - name: Run Southend Girls School tests
+        run: pytest test_SouthendGirls.py --tb=short --junitxml=results.xml
 
-      # - name: Run ST Bernards School tests
-      #   run: pytest test_STBernards.py  --tb=short --junitxml=results.xml
+      - name: Run ST Bernards School tests
+        run: pytest test_STBernards.py  --tb=short --junitxml=results.xml
 
-      # - name: Run ST Thomas School tests
-      #   run: pytest test_STThomas.py  --tb=short --junitxml=results.xml
+      - name: Run ST Thomas School tests
+        run: pytest test_STThomas.py  --tb=short --junitxml=results.xml
 
-      # - name: Run Westcliff School tests
-      #   run: pytest test_WestcliffBoysAnswers.py  --tb=short --junitxml=results.xml
+      - name: Run Westcliff School tests
+        run: pytest test_WestcliffBoysAnswers.py  --tb=short --junitxml=results.xml
 
       - name: Run Westcliff Girls School tests
         run: pytest test_WestcliffGirls.py  --tb=short --junitxml=results.xml
+
+      - name: Run Colchester Royal Grammar School tests
+        run: pytest test_ColchesterRoyalGrammarAnswers.py  --tb=short --junitxml=results.xml
+
+      - name: Run Beacons field School tests
+        run: pytest test_BeaconsfieldAnswers.py  --tb=short --junitxml=results.xml
             
       # Upload screenshots
       - name: Upload screenshots
