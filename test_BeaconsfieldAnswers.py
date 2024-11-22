@@ -87,7 +87,7 @@ class TestWordpressLogin:
             "https://smoothmaths.co.uk/gl-board-assessment-answer-paper-1/",
             "https://smoothmaths.co.uk/gl-sample-assessment-answer-paper-2/",
             "https://smoothmaths.co.uk/gl-board/gl-assessment-sample-answer-paper-3/",
-            "https://smoothmaths.co.uk/gl-board/gl-assessment-sample-paper-4//"
+            "https://smoothmaths.co.uk/gl-board/gl-assessment-sample-paper-4/"
         ]
         
 
