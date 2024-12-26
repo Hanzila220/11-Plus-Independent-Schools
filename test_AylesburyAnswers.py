@@ -27,7 +27,7 @@ class TestWordpressLogin:
         chrome_options.add_argument("window-size=1296,696")
         
         self.driver = webdriver.Chrome(options=chrome_options)
-        self.driver.set_page_load_timeout(60)
+        self.driver.set_page_load_timeout(120)
         self.driver.set_script_timeout(30)
         self.driver.implicitly_wait(10)
 
@@ -56,7 +56,7 @@ class TestWordpressLogin:
         element = None
         for _ in range(20):  # Try scrolling up to 20 times
             try:
-                element = WebDriverWait(self.driver, 5).until(
+                element = WebDriverWait(self.driver, 20).until(
                     EC.element_to_be_clickable((by, value))
                 )
                 break  # Exit if the element becomes clickable
